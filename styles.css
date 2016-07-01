@@ -1,22 +1,62 @@
-.color-cube {
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  border: 1px solid black;
-}
-
 .red {
-  background-color: red;
+  background-color: crimson;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 25px;
+  float: left;
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: khaki;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 25px;
+  float:left;
 }
 
 .green {
-  background-color: green;
+  background-color: springgreen;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 25px;
+  float: left;
 }
 
 .blue {
-  background-color: blue;
+  background-color: dodgerblue;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 25px;
+  float: left;
+}
+
+p {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
+button {
+  width: 100px;
+  height: 100px;
+  font-family: 'Rubik', sans-serif;
+}
+.buttons {
+  text-align: center;
+  margin: 0 auto;
+}
+div {
+  padding: 3%;
+  margin: 3%;
+  text-align: center;
+}
+html {
+  background: url(hexbg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: .8;
 }
